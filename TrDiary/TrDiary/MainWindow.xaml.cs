@@ -22,7 +22,7 @@ namespace TrDiary
     {
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent();//gklf;lgk
             ExerciseList list = new ExerciseList();
             listboxExercise.ItemsSource = list;
 
